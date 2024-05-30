@@ -21,7 +21,8 @@
             <h1 class="varela-font head-label">Dashboard</h1>
           </v-col>
         </v-row>
-        <v-row no-gutters>
+        <!-- STAT CARDS -->
+        <v-row no-gutters class="px-2">
           <v-col cols="col" lg="4" md="4" sm="12">
             <CardStats
               avatarico="user"
@@ -59,6 +60,11 @@
             <CardStats avatarBg="radial-gradient(circle, rgba(106,200,247,1) 0%, rgba(0,145,218,1) 100%)" subtitle="Loan Officers" subvalue="200+"  statscolor="#4caf50" footerstats="5%" footervalue=" than last month"></CardStats>
           </v-col> -->
         </v-row>
+        <v-row no-gutters>
+          <v-col cols="col" lg="6" md="6" sm="12">
+            <RevenueChart></RevenueChart>
+          </v-col>
+        </v-row>
       </v-container>
     </v-main>
   </v-layout>
@@ -67,11 +73,12 @@
 <script>
 // @ is an alias to /src
 import CardStats from "@/components/CardStats.vue";
-
+import RevenueChart from "@/components/RevenueChart.vue"
 export default {
   name: "HomeView",
   components: {
     CardStats,
+    RevenueChart
   },
   data() {
     return {
