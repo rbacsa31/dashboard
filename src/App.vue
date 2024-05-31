@@ -29,10 +29,63 @@ nav a {
   color: #002d69;
 }
 
-.secondary-color {
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .w-view {
+    display: none;
+  }
+  .app-layout {
+    height: 1600px !important;
+  }
+  
+  .v-navigation-drawer__scrim {
+    height: 1600px !important;
+
+  }
+}
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .w-view {
+    display: none !important;
+  }
+
+  .app-layout {
+    height: 1600px !important;
+  }
+  
+  .v-navigation-drawer__scrim {
+    height: 1600px !important;
+
+  }
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .w-view {
+    display: none !important;
+  }
+  .app-layout {
+    height: 1600px !important;
+  }
+
+  .v-navigation-drawer__scrim {
+    height: 1600px !important;
+
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .m-view {
+    display: none !important;
+  }
+ 
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .m-view {
+    display: none !important;
+  }
 }
 </style>

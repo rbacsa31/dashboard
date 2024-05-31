@@ -18,7 +18,7 @@ import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 library.add(faUserSecret)
 library.add(fas)
 library.add(far)
-
+import VueApexCharts from "vue3-apexcharts";
 
 
 const vuetify = createVuetify({
@@ -33,6 +33,7 @@ import store from './store'
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)
+.use(VueApexCharts)
 .use(vuetify)
 .use(store)
 .use(router)
