@@ -12,8 +12,8 @@
       <v-card class="side-drawer-card" max-width="344">
         <v-card-item>
           <v-card-title>
-            <v-img lazy="true"
-              src="https://www.homebuyerwallet.com/assets/img/Logo-Icon-Text.png"
+            <v-img class="px-2" lazy="true"
+              src="https://i.ibb.co/r3nbXK9/db-logo.png"
             ></v-img>
           </v-card-title>
         </v-card-item>
@@ -42,9 +42,9 @@
       <v-card class="side-drawer-card" max-width="344">
         <v-card-item>
           <v-card-title>
-            <v-img
-              src="https://www.homebuyerwallet.com/assets/img/Logo-Icon-Text.png"
-            ></v-img>
+            <v-img class="px-2" lazy="true"
+            src="https://i.ibb.co/zs23Yvy/db-logo.png"
+          ></v-img>
           </v-card-title>
         </v-card-item>
 
