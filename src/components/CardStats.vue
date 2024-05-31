@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card class="card-body" elevation="6" width="90%" max-width="344">
+    <v-card class="card-body" elevation="6" width="90%" max-width="100%">
       <v-card-item>
         <v-card-title
           class="card-head-avatar py-4"
@@ -81,7 +81,7 @@ export default {
 
 .card-footer {
   text-align: left;
-  margin-left: 5%;
+  margin-left: 1.1%;
   font-size: 0.9rem;
   color: rgb(158, 158, 158);
 }
