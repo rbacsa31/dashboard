@@ -1,5 +1,8 @@
 <template>
-  <v-card class="card-body" elevation="6" width="90%" max-width="100%">
+  <v-card class="card-body" elevation="6" width="95%" max-width="100%">
+    <v-row class="ml-5 mt-3" no-gutters>
+      <v-label class="varela-font chart-label">Revenue</v-label>
+    </v-row>
     <apexchart
       class="varela-font"
       type="line"
@@ -54,14 +57,20 @@ export default {
         stroke: {
           width: [0, 4],
         },
-        title: {
-          text: "Revenue",
-        },
+        // title: {
+        //   text: "Revenue",
+        //   style: {
+        //     fontSize: "14px",
+        //     fontFamily: "Varela Round",
+        //     color: "#002d69",
+        //     margin: "10px"
+        //   },
+        // },
         dataLabels: {
           enabled: true,
           enabledOnSeries: [1],
         },
-        colors: ['#0091da', '#002d69', '#a9b7c9'],
+        colors: ["#0091da", "#002d69", "#a9b7c9"],
         labels: [
           "01 Jan 2024",
           "01 Feb 2024",
@@ -100,41 +109,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+/* APEX CHART CARD STYLE START */
 .card-body {
   border-radius: 10px;
   display: inline-block;
   margin: 1em 0px;
   overflow: unset;
 }
-.card-head-avatar {
-  width: 70px;
-  height: 70px;
-  border-radius: 10px;
-  position: absolute;
-  top: -10px;
-}
 
-.card-content {
-  float: right;
+.chart-label {
+  color: #002d69;
   opacity: 1;
-  margin-bottom: 1.5rem;
-}
-
-.card-subtitle {
-  font-size: 0.85rem;
-  color: rgb(158, 158, 158);
   font-weight: 600;
+  margin-left: 2%;
 }
-.card-value {
-  float: right;
-  font-size: 1.4rem;
-  font-weight: 800;
-}
-
-.card-footer {
-  text-align: left;
-  margin-left: 5%;
-  font-size: 0.9rem;
-  color: rgb(158, 158, 158);
-}
+/* APEX CHART CARD STYLE END */
 </style>

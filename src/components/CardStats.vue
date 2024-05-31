@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card class="card-body" elevation="6" width="90%" max-width="344">
+    <v-card class="card-body" elevation="6" width="90%" max-width="100%">
       <v-card-item>
         <v-card-title
           class="card-head-avatar py-4"
