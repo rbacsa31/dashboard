@@ -69,6 +69,15 @@ export default {
         dataLabels: {
           enabled: true,
           enabledOnSeries: [1],
+          enabled: true,
+          formatter: function (val) {
+            return val + "$";
+          },
+          offsetY: -20,
+          style: {
+            fontSize: "12px",
+            colors: ["#002d69"],
+          },
         },
         colors: ["#0091da", "#002d69", "#a9b7c9"],
         labels: [
@@ -89,6 +98,33 @@ export default {
           type: "datetime",
         },
         yaxis: [
+          {
+            labels: {
+              show: false,
+              formatter: function (val) {
+                return val + "$";
+              },
+            },
+            
+          },
+          {
+            labels: {
+              show: false,
+              formatter: function (val) {
+                return val + "$";
+              },
+            },
+            
+          },
+          {
+            labels: {
+              show: false,
+              formatter: function (val) {
+                return val + "$";
+              },
+            },
+            
+          },
           {
             title: {
               text: "Revenue",
