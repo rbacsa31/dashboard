@@ -81,7 +81,7 @@ export default {
 
 .card-footer {
   text-align: left;
-  margin-left: 5%;
+  margin-left: 1.1%;
   font-size: 0.9rem;
   color: rgb(158, 158, 158);
 }

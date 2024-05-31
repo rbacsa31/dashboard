@@ -35,7 +35,7 @@ export default {
       series: [
         {
           name: "Program Imports",
-          data: [6, 3.1, 4.0, 5.0, 10.0],
+          data: [6.5, 3.1, 4.23, 5.42, 10.52,  8.65, 7.25, 11.23,  13.25, 14.35, 12.55, 11.15],
         },
       ],
       chartOptions: {

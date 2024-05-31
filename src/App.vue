@@ -35,11 +35,11 @@ nav a {
     display: none;
   }
   .app-layout {
-    height: 1400px !important;
+    height: 1600px !important;
   }
   
   .v-navigation-drawer__scrim {
-    height: 1400px !important;
+    height: 1600px !important;
 
   }
 }
@@ -50,11 +50,11 @@ nav a {
   }
 
   .app-layout {
-    height: 1400px !important;
+    height: 1600px !important;
   }
   
   .v-navigation-drawer__scrim {
-    height: 1400px !important;
+    height: 1600px !important;
 
   }
 }
@@ -65,11 +65,11 @@ nav a {
     display: none !important;
   }
   .app-layout {
-    height: 1400px !important;
+    height: 1600px !important;
   }
 
   .v-navigation-drawer__scrim {
-    height: 1400px !important;
+    height: 1600px !important;
 
   }
 }
