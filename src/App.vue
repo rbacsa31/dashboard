@@ -32,7 +32,7 @@ nav a {
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .w-view {
-    display: none;
+    display: none !important;
   }
   .app-layout {
     height: 1600px !important;
